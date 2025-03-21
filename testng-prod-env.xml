@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="qa"></include>
+        </run>
+    </groups>
+
+    <test verbose="2" preserve-order="true" name="APIAutomtionFrameworkATB8x">
+        <classes>
+            <class name="org.example.tests.integraton.sample.TestIntegrationSample">
+                <methods>
+                    <include name="testCreatedBooking"/>
+                    <include name="testVerifyBookingId"/>
+                    <include name="testUpdateBookingId"/>
+                    <include name="testDeleteBookingId"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
