@@ -1,4 +1,4 @@
-package com.thetestingacademy.sampleCheck.payLoadManagement.gson;
+package org.example.pojos;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
